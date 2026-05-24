@@ -123,6 +123,7 @@ return {
   content: cleanData.post_content
 };
 ```
+######
   - mode: Run Once for All Items
 + Add node: WordPress => Create a Post
   - Set up Credential: 
