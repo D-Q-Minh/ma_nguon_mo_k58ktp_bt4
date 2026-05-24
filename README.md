@@ -136,6 +136,7 @@ return {
   - Ignore SSL Issues (Insecure): bật
   - Cấu hình node Create a Post: bấm nút Execute previous nodes để thấy trường giá trị của node trước trả về, kéo nội dung phần title (bên trái) vào trường title
   - Add field (Thêm thuộc tính): Status == Publish (bài đăng sẽ ở trạng thái xuất bản ngay lập tức, mặc định nó ở giá trị Draft bản nháp)
- 
+<img width="158" height="174" alt="image" src="https://github.com/user-attachments/assets/d03bcb8e-ea0c-4c92-8a87-036db9dd7d6c" />
+
 + PUBLISH flow
 + 
