@@ -143,7 +143,7 @@ return {
 
 ### 3. Test:
 ###### chat với bot:
-<img width="514" height="54" alt="image" src="https://github.com/user-attachments/assets/90afa8fe-96cd-4721-8510-a55388d32e48" />
+<img width="347" height="42" alt="image" src="https://github.com/user-attachments/assets/c34176f9-86e8-436f-a79f-de46a866ced5" />
 
 ###### kiểm tra trên wordpress:
-<img width="730" height="200" alt="image" src="https://github.com/user-attachments/assets/c9b6670f-a0b4-49b6-a210-3e968d210061" />
+<img width="922" height="678" alt="image" src="https://github.com/user-attachments/assets/83e35f2f-0753-48bd-9f96-7159e288cc7a" />
