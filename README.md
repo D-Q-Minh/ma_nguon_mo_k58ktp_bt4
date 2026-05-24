@@ -86,3 +86,5 @@ volumes:
 <img width="652" height="237" alt="image" src="https://github.com/user-attachments/assets/d4189a3d-9e7b-4439-8060-90d88d9202d2" />
 
 ### 2.
+##### thêm sub-domain vào tunnel đã tạo cho wordpress ở bài 3
+<img width="847" height="391" alt="image" src="https://github.com/user-attachments/assets/33df4193-90f0-4f74-be41-d0be79f436d3" />
