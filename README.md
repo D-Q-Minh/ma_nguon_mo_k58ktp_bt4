@@ -134,3 +134,8 @@ return {
   - Set up Credential: sub-domain wordpress. => Tài Khoản => chọn user đã tạo lúc setup wordpress => Mật khẩu ứng dụng => Nhập n8n và bấm "Thêm mật khẩu ứng dụng" => copy chuỗi 24 kí tự : Đây là mật khẩu ứng dụng => paste vào mục Password của n8n Credential
   - nhập username, password (chuỗi 24 kí tự), wordpress url (sub-domain1)
   - Ignore SSL Issues (Insecure): bật
+  - Cấu hình node Create a Post: bấm nút Execute previous nodes để thấy trường giá trị của node trước trả về, kéo nội dung phần title (bên trái) vào trường title
+  - Add field (Thêm thuộc tính): Status == Publish (bài đăng sẽ ở trạng thái xuất bản ngay lập tức, mặc định nó ở giá trị Draft bản nháp)
+ 
++ PUBLISH flow
++ 
