@@ -80,3 +80,9 @@ volumes:
   wp_data:
   n8n_data:
 ```
+###### docker compose down
+###### docker compose up -d
+<img width="368" height="136" alt="image" src="https://github.com/user-attachments/assets/b6026835-656d-4ee4-8280-b2a32a6e8898" />
+<img width="652" height="237" alt="image" src="https://github.com/user-attachments/assets/d4189a3d-9e7b-4439-8060-90d88d9202d2" />
+
+### 2.
