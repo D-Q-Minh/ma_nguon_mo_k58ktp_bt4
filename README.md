@@ -139,4 +139,11 @@ return {
 <img width="158" height="174" alt="image" src="https://github.com/user-attachments/assets/d03bcb8e-ea0c-4c92-8a87-036db9dd7d6c" />
 
 + PUBLISH flow
-+ 
+<img width="931" height="215" alt="image" src="https://github.com/user-attachments/assets/a855a11b-c502-4645-b4d7-f6e68ebf92ed" />
+
+### 3. Test:
+###### chat với bot:
+<img width="514" height="54" alt="image" src="https://github.com/user-attachments/assets/90afa8fe-96cd-4721-8510-a55388d32e48" />
+
+###### kiểm tra trên wordpress:
+<img width="730" height="200" alt="image" src="https://github.com/user-attachments/assets/c9b6670f-a0b4-49b6-a210-3e968d210061" />
