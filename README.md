@@ -98,4 +98,31 @@ volumes:
 + Activate License key: vào trang chủ => SETTING (góc dưới trái) => Usage and plan => Enter activation key: paste key từ email vào đây => Activate => sẽ nhận đc thông báo (góc dưới phải) Your Registered Community Edition has been successfully activated.
 + create workflow
 <img width="311" height="176" alt="image" src="https://github.com/user-attachments/assets/59956b08-c130-42e2-af25-f366c2d767f3" />
-+ 
+
++ Add trigger node:
+  - node: Telegram => OnMessage
+  - cấu hình Credential: Set up Credential => Nhập Access Token (chat với @BotFather, tạo bot, lấy token)
+<img width="269" height="76" alt="image" src="https://github.com/user-attachments/assets/c50fddd9-10df-491b-80fd-e626bef38df4" />
+<img width="251" height="129" alt="image" src="https://github.com/user-attachments/assets/09fe841a-83bb-400c-b6f2-f1f2d19359c0" />
++ Add node: AI Google Gemini
+  - Set up Credential, nhập API KEY
+  - tạo nội dung promt
+  - Output Content as JSON: bật
++ Add node: Code in JavaScript
+  - nội dung code:
+```
+// 1. lấy dữ liệu gốc
+const rawText = $input.first().json.content.parts[0].text;
+
+// 2. Chuyển đổi chuỗi (đã được bọc JSON) thành Object trong JavaScript
+const cleanData = JSON.parse(rawText);
+
+// 3. Trả về kết quả định dạng lại gọn gàng cho n8n sử dụng
+return {
+  title: cleanData.post_title,
+  content: cleanData.post_content
+};
+```
+  - mode: Run Once for All Items
++ Add node: WordPress => Create a Post
+  - Set up Credential: 
