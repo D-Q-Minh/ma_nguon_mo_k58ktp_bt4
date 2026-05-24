@@ -88,3 +88,14 @@ volumes:
 ### 2.
 ##### thêm sub-domain vào tunnel đã tạo cho wordpress ở bài 3
 <img width="847" height="391" alt="image" src="https://github.com/user-attachments/assets/33df4193-90f0-4f74-be41-d0be79f436d3" />
+
+
+##### tạo các bài viết ở wordpress
+##### cấu hình n8n:
+######
++ tạo tài khoản admin
++ bấm Send me a Licence key, lấy key ở gmail
++ Activate License key: vào trang chủ => SETTING (góc dưới trái) => Usage and plan => Enter activation key: paste key từ email vào đây => Activate => sẽ nhận đc thông báo (góc dưới phải) Your Registered Community Edition has been successfully activated.
++ create workflow
+<img width="311" height="176" alt="image" src="https://github.com/user-attachments/assets/59956b08-c130-42e2-af25-f366c2d767f3" />
++ 
