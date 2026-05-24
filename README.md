@@ -104,11 +104,16 @@ volumes:
   - cấu hình Credential: Set up Credential => Nhập Access Token (chat với @BotFather, tạo bot, lấy token)
 <img width="269" height="76" alt="image" src="https://github.com/user-attachments/assets/c50fddd9-10df-491b-80fd-e626bef38df4" />
 <img width="251" height="129" alt="image" src="https://github.com/user-attachments/assets/09fe841a-83bb-400c-b6f2-f1f2d19359c0" />
+  - chat với bot (vd: Hello bot) để lấy giá trị
+
 + Add node: AI Google Gemini
   - Set up Credential, nhập API KEY
   - tạo nội dung promt
   - Output Content as JSON: bật
+<img width="259" height="196" alt="image" src="https://github.com/user-attachments/assets/135d89ba-57a4-49ae-877f-e1109cf805a2" />
+
 + Add node: Code in JavaScript
+  - mode: Run Once for All Items
   - nội dung code:
 ```
 // 1. lấy dữ liệu gốc
@@ -123,7 +128,9 @@ return {
   content: cleanData.post_content
 };
 ```
-######
-  - mode: Run Once for All Items
+<img width="178" height="147" alt="image" src="https://github.com/user-attachments/assets/ce9f112a-d5cf-4708-aa6e-841ef26736fc" />
+
 + Add node: WordPress => Create a Post
-  - Set up Credential: 
+  - Set up Credential: sub-domain wordpress. => Tài Khoản => chọn user đã tạo lúc setup wordpress => Mật khẩu ứng dụng => Nhập n8n và bấm "Thêm mật khẩu ứng dụng" => copy chuỗi 24 kí tự : Đây là mật khẩu ứng dụng => paste vào mục Password của n8n Credential
+  - nhập username, password (chuỗi 24 kí tự), wordpress url (sub-domain1)
+  - Ignore SSL Issues (Insecure): bật
